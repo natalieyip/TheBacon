@@ -4,6 +4,6 @@ Job.destroy_all
 	Job.create( 
 		title: Faker::Job.title,
 		company: Faker::Company.name,
-    description: Faker::Lorem.paragraphs
+    description: Faker::Lorem.paragraph
   )
 end 
