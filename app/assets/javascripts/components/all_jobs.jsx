@@ -14,8 +14,7 @@ var AllJobs = React.createClass({
   	var jobs = this.state.jobs.map((job) => { 
   		return(
   			<div key={job.id} >
-  				<h3> {job.title} </h3>
-  				<h4> {job.company} </h4>
+  				<h3> {job.title} - {job.company} </h3>
   				<p> {job.description} </p>
   			</div>
   		)
@@ -24,7 +23,10 @@ var AllJobs = React.createClass({
   	return(
   		<div>
   			{jobs}
+        
   		</div>
+
+
   		)
  
   }
