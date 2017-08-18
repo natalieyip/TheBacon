@@ -1,9 +1,14 @@
 Job.destroy_all
 
-5.times do
+type_array = ["Full Time", "Part Time", "Internship", "Contract"]
+pay_type_array = ["Salary", "Hourly"]
+
+10.times do
 	Job.create( 
 		title: Faker::Job.title,
 		company: Faker::Company.name,
-    description: Faker::Lorem.paragraph
+    description: Faker::Lorem.paragraph,
+    employtype: type_array.sample,
+    paytype: pay_type_array.sample
   )
 end 

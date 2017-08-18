@@ -19,6 +19,8 @@ ActiveRecord::Schema.define(version: 20170815012337) do
     t.string "title", null: false
     t.string "company", null: false
     t.string "description", null: false
+    t.string "employtype", null: false
+    t.string "paytype", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
