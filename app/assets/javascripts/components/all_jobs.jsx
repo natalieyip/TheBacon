@@ -15,7 +15,8 @@ var AllJobs = React.createClass({
   		return(
   			<div key={job.id} className="job-container">
   				<h2> {job.title} </h2>
-          <h3> {job.company} - {job.employtype} - {job.paytype} </h3>
+          <h3> {job.company} </h3>
+          <h4> <em> {job.employtype} - {job.paytype} </em> </h4>
   				<p> {job.description} </p>
   			</div>
   		)

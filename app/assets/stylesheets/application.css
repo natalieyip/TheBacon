@@ -61,4 +61,40 @@ h1 {
 .add-job-container h3{
 	text-align: center;
 	color: #f05e5d;
+	font-size: 25px;
+}
+
+input{
+	display: block;
+	width: 26em;
+	text-align: center;
+	padding: 5px;
+	margin: 10px;
+}
+
+input:focus {
+  background-color: #ffecb6;
+  
+}
+
+textarea {
+	display: block;
+	width: 26em;
+	height: 10em;
+	padding: 5px;
+	margin: 10px;
+}
+
+textarea:focus {
+  background-color: #ffecb6;
+}
+
+select{
+	width: 26em;
+	padding: 5px;
+	margin: 10px;
+}
+
+input[type=radio] {
+	display: inline-block;
 }

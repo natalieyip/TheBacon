@@ -7,7 +7,7 @@ pay_type_array = ["Salary", "Hourly"]
 	Job.create( 
 		title: Faker::Job.title,
 		company: Faker::Company.name,
-    description: Faker::Lorem.paragraph,
+    description: Faker::Lorem.paragraph(8),
     employtype: type_array.sample,
     paytype: pay_type_array.sample
   )
