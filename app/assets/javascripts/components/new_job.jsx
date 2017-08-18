@@ -18,11 +18,11 @@ var NewJob = React.createClass({
 
 	render(){
 		return (
-			<div> 
-				<form>
+			<div className="add-job-container"> 
+				<form className="new-job-form">
 					<input ref='title' placeholder="Title" />
 					<input ref='company' placeholder="Company" />
-					<input ref='description' placeholder="Description" />
+					<textarea ref='description' placeholder="Description" />
 					<select name="employtype" >
 					  <option value="Full Time">Full Time</option>
 					  <option value="Part Time">Part Time</option>

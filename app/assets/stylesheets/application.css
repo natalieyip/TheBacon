@@ -13,3 +13,30 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+	background-color: #f05e5d;
+	color: #fdd667;
+	font-family: Raleway;
+	display: inline-block;
+  vertical-align: middle;
+}
+
+h1 {
+	font-size: 80px;
+	text-align:center;
+}
+
+.job-container{
+	background-color: white;
+	text-align: center;
+	padding: 10px;
+	margin: 20px;
+	width: 60% ;
+	border-radius: 10px;
+}
+
+
+.add-job-container{
+	background-color: white;
+}
