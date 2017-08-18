@@ -35,11 +35,12 @@ var NewJob = React.createClass({
 					  <option value="Contract">Contract</option>
 					</select>
 					<label> Pay Type: </label>
-					<div className="radiobtn">
-						<input type="radio" name="paytype" value="salary" /> Salary
-	  				<input type="radio" name="paytype" value="hourly" /> Hourly
-  				</div>
-					<button onClick={this.handleClick} >Submit</button>
+						<input type="radio" name="paytype" value="salary" /> 
+						Salary 
+	  				<input type="radio" name="paytype" value="hourly" /> 
+	  				Hourly 
+						<button onClick={this.handleClick}> Add Job </button>
+					
 				</form>
 			</div>
 			)

@@ -72,9 +72,10 @@ input{
 	margin: 10px;
 }
 
-input:focus {
+input:focus, textarea:focus {
   background-color: #ffecb6;
-  
+  outline: none;
+  border: 1px solid #fdd667 ;
 }
 
 textarea {
@@ -85,16 +86,33 @@ textarea {
 	margin: 10px;
 }
 
-textarea:focus {
-  background-color: #ffecb6;
-}
-
 select{
 	width: 26em;
 	padding: 5px;
 	margin: 10px;
+	font-family: Raleway;
+	height: 2em;
+	background-color: white
 }
 
-input[type=radio] {
-	display: inline-block;
+select:active {
+ background-color: #ffecb6;
 }
+
+input[type="radio"]{
+	display: inline-block;
+	width: 30px;
+	text-align: center
+}
+
+button { 
+	padding: 10px;
+	background-color: white; 
+	color: #f05e5d;
+	border: 3px solid  #f05e5d;
+	font-family: Raleway;
+	margin: 20px
+ }
+
+
+
