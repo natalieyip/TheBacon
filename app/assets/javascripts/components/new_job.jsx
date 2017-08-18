@@ -19,6 +19,7 @@ var NewJob = React.createClass({
 	render(){
 		return (
 			<div className="add-job-container"> 
+			<h3> Post a Job </h3> 
 				<form className="new-job-form">
 					<input ref='title' placeholder="Title" />
 					<input ref='company' placeholder="Company" />

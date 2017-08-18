@@ -1,7 +1,7 @@
 class Body extends React.Component {
   render() {
       return (
-      	<div> 
+      	<div className="job-field"> 
       		<AllJobs />
       		<NewJob />
       	</div>
