@@ -4,5 +4,5 @@ Rails.application.routes.draw do
 			resources :jobs, only: [:index, :create, :destroy]
 		end
 	end
-  # resources :jobs
+  root to: 'main#index'
 end
