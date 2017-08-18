@@ -13,3 +13,88 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+	background-color: #f05e5d;
+	color: #fdd667;
+	font-family: Raleway;
+}
+
+h1 {
+	font-size: 80px;
+	text-align:center;
+}
+
+.job-container{
+	background-color: white;
+	text-align: center;
+	padding: 15px;
+	margin: 20px;
+	border-radius: 10px;
+}
+
+.job-container h2{
+	color: #f05e5d
+}
+
+.job-field{
+	text-align: center
+}
+
+.all-jobs-container{
+	width: 65%;
+	display: inline-block;
+	vertical-align: top
+}
+
+
+.add-job-container{
+	width: 25%;
+	background-color: white;
+	padding: 10px;
+	border-radius: 10px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 20px;
+}
+
+.add-job-container h3{
+	text-align: center;
+	color: #f05e5d;
+	font-size: 25px;
+}
+
+input{
+	display: block;
+	width: 26em;
+	text-align: center;
+	padding: 5px;
+	margin: 10px;
+}
+
+input:focus {
+  background-color: #ffecb6;
+  
+}
+
+textarea {
+	display: block;
+	width: 26em;
+	height: 10em;
+	padding: 5px;
+	margin: 10px;
+}
+
+textarea:focus {
+  background-color: #ffecb6;
+}
+
+select{
+	width: 26em;
+	padding: 5px;
+	margin: 10px;
+}
+
+input[type=radio] {
+	display: inline-block;
+}

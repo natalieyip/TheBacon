@@ -13,17 +13,18 @@ var AllJobs = React.createClass({
   render() {
   	var jobs = this.state.jobs.map((job) => { 
   		return(
-  			<div key={job.id} >
-  				<h3> {job.title} - {job.company} </h3>
+  			<div key={job.id} className="job-container">
+  				<h2> {job.title} </h2>
+          <h3> {job.company} </h3>
+          <h4> <em> {job.employtype} - {job.paytype} </em> </h4>
   				<p> {job.description} </p>
   			</div>
   		)
   	}); 
 
   	return(
-  		<div>
-  			{jobs}
-        
+  		<div className="all-jobs-container">
+  			{jobs} 
   		</div>
 
 
