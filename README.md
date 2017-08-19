@@ -1,3 +1,4 @@
+
 # The Bacon Job Board 
 
 Are you a local business looking to hire your next great employee? Or are you a terrific candidate looking for the next big gig? Have no fear, The Bacon Job Board is here! 
@@ -11,4 +12,5 @@ CANDIDATES: Feel free to peruse through our many postings to land your dream job
 <p align="center">
 	<img src="/app/assets/images/JobBoardScreenshot.png">
 </p>
+
 
