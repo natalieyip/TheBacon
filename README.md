@@ -1,24 +1,9 @@
-# README
+#The Bacon Job Board 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+##Description 
+Are you a local business looking to kickstart your client base? Have no fear, feel free to post up your services here! 
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+##Interface
+<p align="center">
+<img src="/app/assets/images/The-Bacon-Screenshot.png">
+</p>
