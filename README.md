@@ -1,3 +1,4 @@
+
 # The Bacon Job Board 
 
 ## Description 
@@ -10,4 +11,5 @@ We are The Bacon Job Board, hoping to connect businesses with their customers on
 <p align="center">
 	<img src="/app/assets/images/JobBoardScreenshot.png">
 </p>
+
 
